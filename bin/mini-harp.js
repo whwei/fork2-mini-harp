@@ -10,7 +10,6 @@ args = parseArgs(process.argv);
 
 port = args.port || 4000;
 root = args._[2] || process.cwd();
-console.log(root)
 
 console.log('Starting http server on http://localhost:' + port);
 
